@@ -1,0 +1,40 @@
+
+
+.figcap{
+    padding: 100px;
+   >*{
+    margin-bottom: 20px;
+   }
+    
+}
+.play{
+    background-color: rgb(255, 216, 0);
+   
+}
+.cap{
+    background-color: rgb(16, 124, 16);
+    padding: 40px;
+   
+    
+}
+.btn4{
+    height: 40px;
+    width: 180px;
+    background-color:rgb(155, 240, 11) ;
+    &:hover{
+        >p{
+            border-bottom: 2px solid black;    
+            transform: translateX(-10px);
+        }
+        >span{
+            transform: translateX(10px);
+        }
+    }
+    >p{
+        transition: 0.2s;
+    }
+    >span{
+        transition: 0.2s;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.img1{
+    background-color: white;
+    >ul{
+       
+        >li{
+            width: 10%;
+            height: 80%;
+            object-fit: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            &:hover{
+                >figcaption{
+                    border-bottom: 3px solid rgb(16, 124, 16);
+                }
+            }
+           >figcaption{
+            color: rgb(16, 124, 16);
+            transition: 0.1s;
+            
+           }
+
+        }
+    }
+}
