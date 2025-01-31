@@ -1,14 +1,10 @@
 
 div{
-    
     >ul{
         >li{
             width: 20%;
             height: 100%;
             display: flex;
-            >span{
-               
-            }
             >a{
                 color: black;
                 transition: 0.2s;
